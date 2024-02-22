@@ -1,0 +1,106 @@
+body{
+
+
+    background-color: rgb(189, 220, 252);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    background-color: rgb(189, 220, 252);
+}
+.AddButton{
+    background-color: rgb(23, 173, 23);
+    color: white;
+    padding: 15px 20px;
+    
+    margin-left: 0px;
+}
+.dateCalender {
+    color: rgb(15, 15, 193);
+    padding: 15px 20px;
+    border-color: blue
+
+    /* Add any other styles for the date input here */
+}
+.todoDate{
+    margin-left: 50px;
+    color:rgb(17, 17, 165);
+
+}
+.Todo {
+    padding: 12px 50px;
+    margin-right: 50px;
+    color: rgb(15, 15, 193);
+    border-color: blue;
+    font-size: 20px;
+    
+    /* width : 350px; */
+}
+.todoDiv{
+    align-items: center;
+    justify-content: center;
+    /* align-items: stretch; */
+}
+.Todo::placeholder{
+    color: rgb(9, 9, 212);
+}
+.AddButDiv {
+    margin:0px;
+}
+.deleteButton {
+    background-color: red;
+    color: white;
+    padding: 8px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    margin-left: 50px;
+}
+.DeleteButton1{
+    background-color: rgb(11, 111, 11);
+    color: white;
+    padding: 15px 20px;
+    font: 20px;
+    
+}
+.structure {
+    display: grid;
+    grid-template-columns: 350px 200px 300px;
+    column-gap: 20px;
+    padding-bottom:30px;
+    /* margin-left: 400px; */
+    /* background-color:black; */
+}
+.TodoList-array {
+    display: grid;
+    grid-template-columns: 350px 200px 300px;
+    white-space: normal;
+    column-gap: 20px;
+    row-gap: 50px;
+    /* overflow: hidden; */
+}
+.todoParagraph {
+    white-space: normal; /* Allow text to wrap */
+}
+.input-box{
+    /* display: flex; */
+    display: flex;
+    flex-direction: column; /* Display children in a column layout */
+    align-items: stretch;
+    background-color: rgb(131, 193, 255);
+    color: rgb(2, 2, 117);
+
+    font-size: 20px;
+    /* Allow text to wrap */
+    white-space: normal; 
+    padding:15px;
+    /*  Break words that exceed container width */
+    word-wrap: break-word;
+    /* overflow-wrap: break-word; Break words for better compatibility */
+    margin-bottom: 10px;
+    border-radius: 20% 20% 20% 20%; ;
+}
+.todolistdiv{
+    /* background-color: rgb(131, 193, 255); */
+    color: rgb(2, 2, 117);
+}
